@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hotell</title>
+</head>
+<body>
+    
+    <section class="header">
+        <button class="filter-button" data-filter="all">Alle rom</button>
+        <button class="filter-button" data-filter="available">Ledig rom</button>
+        <button class="filter-button" data-filter="firstFloor">1. Etasje</button>
+        <button class="filter-button" data-filter="secondFloor">2. Etasje</button>
+        <button class="filter-button" data-filter="oneBed">1 Senge plass</button>
+        <button class="filter-button" data-filter="moreThanOneBed">Flere senge plasser</button>
+        <button id="clearRoomsButton">Tøm Skjerm</button>
+    </section>
+
+    <section class="container">
+        <h1>Våre rom:</h1>
+        <h2 id="info"></h2>
+        <div id="roomContainer"></div>
+    </section>
+
+<script type="module" src="/Firebase oppgave/JS/firebase.js"></script>
+</body>
+</html>
