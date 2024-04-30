@@ -13,7 +13,7 @@ const firebaseConfig = {
     storageBucket: "hotell-ef53e.appspot.com",
     messagingSenderId: "717970361276",
     appId: "1:717970361276:web:259ad9525aac01e48cf9b9"
-};
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

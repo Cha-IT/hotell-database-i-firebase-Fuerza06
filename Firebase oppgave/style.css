@@ -1,0 +1,51 @@
+.header{
+    background-color: #34495E;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    background-color: #85c1e9;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    background-color:#f5f5f5 ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container>#roomContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1100px;
+}
+
+.container>#roomContainer>div{
+    background-color: aqua;
+    padding: 15px;
+    border: black solid 2px;
+    border-radius: 20px;
+    transition: all o.3s ease-in-out;
+}
+
+.container > #roomContainer > div:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
